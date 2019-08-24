@@ -1,0 +1,355 @@
+/* 
+    Document   : style
+    Created on : Mar 25, 2014, 8:49:12 PM
+    Author     : Pubudu Nawarathna
+    Description:
+        Purpose of the stylesheet follows.
+*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+root { 
+    display: block;
+
+}
+body{
+    overflow: scroll;
+
+
+}
+#top-image{
+
+    width: 100%;
+    height: 75px;
+    font-size: 40px;
+    vertical-align: middle;
+    background-image: url("../images/banner.jpg"); 
+
+}
+#top-image #top-left-banner{
+    margin-left: 10%;
+    width: 100%;
+
+
+}
+#top-image #top-right-nav{
+
+    float: right;
+    margin-right: 7%;
+    margin-top: 0.5%;
+
+
+}
+#top-image p{
+    margin-left: 70%;
+    font-size: 20px;
+    font-style: italic;
+    color:white;
+
+}
+
+#top-line{
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    font-size: 50px;
+    background-color: #dedede;
+    margin-bottom: 0.5%;
+
+}
+.fixed {
+    z-index: 12;
+    position:fixed; top:0; left:0;
+}
+
+.login-button {
+
+    -moz-box-shadow:inset 0px 1px 4px -1px #c1ed9c;
+    -webkit-box-shadow:inset 0px 1px 4px -1px #c1ed9c;
+    box-shadow:inset 0px 1px 4px -1px #c1ed9c;
+    background-color:#9dce2c;
+    -webkit-border-top-left-radius:42px;
+    -moz-border-radius-topleft:42px;
+    border-top-left-radius:42px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    -webkit-border-bottom-right-radius:42px;
+    -moz-border-radius-bottomright:42px;
+    border-bottom-right-radius:42px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+    text-indent:-2.58px;
+    border:2px solid #262922;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial Black;
+    font-size:18px;
+
+    font-style:normal;
+    height:45px;
+    line-height:45px;
+    width:111px;
+    text-decoration:none;
+    text-align:center;
+    z-index: 1001;
+}
+.login-button:hover {
+    background-color: #0c6e10;
+}
+.login-button:active {
+    position:relative;
+    top:1px;
+
+}
+#slide-show-wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+#slide-show{
+    width: 75%;
+    margin: 0 auto;
+}
+#slide-left{
+
+    float: left;
+    background-color: white;
+    margin-top: 0.5%;
+    width: 69%;
+
+
+}
+#slide-right{
+    float: left;
+    width: 30%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+
+}
+.slide-nav{
+
+    background-color: #58b114;
+    display: inline-block;
+    height: 53px;
+    width: 100%;
+    margin-bottom: 3.3%;
+    text-align: center;
+
+    font-size: 18px;
+    line-height: 2.9;
+    color: white;
+    box-shadow: 1px 1px 2px #888888;
+    text-decoration: none;
+    font-family: "Open Sans", Verdana, 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+
+
+}
+.slide-nav:hover{
+    background-color: #0c6e10;
+}
+h1{
+    color: green;
+}
+
+#main-container{
+
+    width: 100%;
+    /* background-color: #baff91; */
+    margin: 0 auto;
+
+
+
+}
+.body-left{
+    float: left;
+    margin-right: 1%;
+
+
+}
+.body-right{
+    float: left;
+
+    min-height: 350px;
+    width: 67%;
+
+
+
+}
+#wrapper{
+    /* background-color: green;*/
+    width: 81%;
+    min-height: 350px;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.wrapper-single{
+    width: 35%;  margin: 0 auto; margin-top: 2%;
+    min-height: 350px;
+    margin-bottom: 2%;
+}
+.wrapper-page{
+    width: 49%;  margin: 0 auto; 
+    margin-top: 2%;
+    min-height: 350px;
+    margin-bottom: 2%;
+    text-align:justify;
+}
+
+.plant_page_item{
+    font-weight: bold;
+}
+header{
+    width: 100%;
+
+}
+
+
+
+
+
+#container
+{
+    margin:50px; padding:10px; width:460px
+}
+#contentbox
+{
+    width:458px; height:50px;
+    border:solid 2px #333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    margin-bottom:6px;
+    text-align:left;
+}
+#msgbox
+{
+    border:solid 1px #dedede;padding:5px;
+    display:none;background-color:#f2f2f2
+}
+#display
+{
+    display:none;
+    border-left:solid 1px #dedede;
+    border-right:solid 1px #dedede;
+    border-bottom:solid 1px #dedede;
+    overflow:hidden;
+}
+.display_box
+{
+    padding:4px; border-top:solid 1px #dedede; font-size:12px; height:30px;
+}
+.display_box:hover
+{
+    background:#3b5998;
+    color:#FFFFFF;
+
+}
+.image
+{
+    width:25px; float:left; margin-right:6px
+}
+
+.not-active-link {
+    pointer-events: none;
+    cursor: default;
+}
+/*
+this is a css code for green gradient div
+background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.46, #D5FF19),
+        color-stop(0.84, #6CBD1B)
+);
+background-image: -o-linear-gradient(bottom, #D5FF19 46%, #6CBD1B 84%);
+background-image: -moz-linear-gradient(bottom, #D5FF19 46%, #6CBD1B 84%);
+background-image: -webkit-linear-gradient(bottom, #D5FF19 46%, #6CBD1B 84%);
+background-image: -ms-linear-gradient(bottom, #D5FF19 46%, #6CBD1B 84%);
+background-image: linear-gradient(to bottom, #D5FF19 46%, #6CBD1B 84%);
+*/
+.error{
+    color: red;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    min-height: 100px;
+    padding-top: 1%;
+}
+a{
+    color: #447314;
+}
+footer a{
+
+    color: white;
+    font-size: 16px;
+}
+footer div{
+    margin-top: 10px;
+}
+
+aside{
+    width: 76%;
+    /* background-color: #baff91; */
+    margin-left: auto;
+    margin-right: auto;
+   
+    text-align: center;
+}
+aside div{
+
+    margin-left: 1%;
+    float: left;
+
+    width: 32%;
+    color: #28703f;;
+
+    background: #e8e7e5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f5f3f0), to(#e8e7e5));
+    background: -webkit-linear-gradient(top, #f5f3f0, #e8e7e5);
+    background: -moz-linear-gradient(top, #f5f3f0, #e8e7e5);
+    background: -ms-linear-gradient(top, #f5f3f0, #e8e7e5);
+    background: -o-linear-gradient(top, #f5f3f0, #e8e7e5);
+    background-image: -ms-linear-gradient(top, #f5f3f0 0%, #e8e7e5 100%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 10px 10px 21px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 21px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 21px -10px rgba(0,0,0,0.75);
+
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    vertical-align: middle;
+
+    margin-bottom: 2%;
+}
+
+aside div img {
+    margin-left: 2%;
+    margin-right: auto;
+    margin-top:2%;
+    margin-top: 2%;
+    width: 280px;
+}
+
+aside div p{
+    width: 80%; 
+    margin-bottom: 2%; 
+    margin-top: 2%; padding: 
+        1%;border-style: solid; 
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+

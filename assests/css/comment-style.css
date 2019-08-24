@@ -1,0 +1,96 @@
+/* 
+    Document   : comment-style
+    Created on : Apr 13, 2015, 7:21:49 AM
+    Author     : Pubudu Nawarathna
+    Description:
+        Purpose of the stylesheet follows.
+styles of the comment system
+*/
+
+.comments-wrappe{
+    
+}
+.comment-body {
+    width:90%; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F1F1F1;
+    overflow: hidden;
+    margin-bottom: 1%;
+}
+
+.avatar-div{
+    width: 50px; 
+    height: 50px; 
+    background-color: red; 
+    float: left; 
+    margin-right: 0.5%;
+    margin-left: 1%;
+}
+.avatar-thumb{
+    width: 50px; 
+    height: 50px; 
+    background-color: green; 
+    float: left; 
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+
+.comment-submit{
+    margin-right: 1.5%; margin-top: 1%; 
+}
+
+.new-comment-text-area{
+    float: left; 
+    width: 91.5%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 0px;
+}
+.old-comments-div{
+    margin-bottom: 4%;
+    float:none;
+}
+
+.sub-avatar-thumb{
+    width: 40px; 
+    height: 40px; 
+    background-color: yellow; 
+    float: left; 
+    margin-right: 0.5%;
+    margin-left: 2%;
+}
+
+.old-sub-comments-div{
+    margin-bottom: 4%;
+    float:none;
+}
+.comment-options{
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+    overflow: hidden;
+    float: left;
+    width: 40%;
+    
+}
+.comment-options>div{
+    float: left;
+    
+}
+.comment-options >div>a{
+    display:table-cell;
+    vertical-align:middle;
+    color: gray;
+    
+}
+
+.comment-main-div> a{
+    color: green;
+}
+.like-button>div{
+    float: left;
+}
+.unlike-button>div{
+    float: left;
+}
